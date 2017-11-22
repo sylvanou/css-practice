@@ -1,0 +1,110 @@
+/*Q1*/
+.logo{
+    color: red;
+}
+
+/*Q2*/
+header nav a{
+    color: green;
+}
+
+/*Q3*/
+nav a:visited {
+    color: #444;
+}
+
+/*Q4*/
+.above-the-fold p {
+    color: white;
+}
+
+/*Q5*/
+.above-the-fold .card {
+    background-color: lightgreen;    
+}
+
+.above-the-fold button {
+    color: white;
+}
+
+/*Q6*/
+article p::first-letter {
+    margin-left: 30px;
+}
+
+/*Q7*/
+.blog {
+    background-color: #666;
+    color: #cff;
+}
+
+/*Q8*/
+.gallery figure:hover {
+    box-shadow: 10px 10px 5px #888;
+}
+
+/*Q9*/
+.gallery figcaption {
+    padding: 8px;
+}
+
+/*Q10
+.gallery:first-child img {
+    background-image: url("")
+}*/
+
+/*Q11*/
+article {
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Q12*/
+.article-title {
+    text-align: center;
+}
+
+/*Q13*/
+section h2 {
+    text-transform: uppercase;
+}
+
+/*Q14*//*Q15*//*Q16*/
+.form-input {
+    display: block;
+    margin-bottom: 15px; 
+    padding: 5px;
+}
+
+/*Q17*/
+footer {
+    background-color: rgb(136, 118, 118);
+    color: #e25f33;
+
+}
+
+/*Q18*/
+.form-input:focus {
+    border-width: 4px;
+    
+}
+
+/* input[type="text"]:focus {
+    border-width: 4px;
+} */
+
+/*Q19*/
+section h2::before {
+    content: ">";
+    margin-right: 4px;
+}
+
+/*Q20*/
+input[type="radio"] {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+
